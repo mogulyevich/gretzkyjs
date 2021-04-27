@@ -1,0 +1,122 @@
+.container {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  height: 60vh;
+}
+
+.wrapper {
+  margin-bottom: 2.2rem;
+  display: flex;
+}
+
+.bigSlide {
+  width: 49.7%;
+  position: relative;
+  margin-right: 0.3%;
+}
+
+.overlayLink {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.bigPostImage {
+  width: 100%;
+  height: 100%;
+}
+
+.meta {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.metaBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 1.2rem;
+  width: 100%;
+}
+
+.category {
+  margin-bottom: 0.25rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+.category span {
+  background-color: #3e446b;
+  padding: 0.25rem 0.5rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.title {
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.smallSlides {
+  width: 50%;
+  height: 60vh;
+  position: relative;
+}
+
+.horizontalPost {
+  width: 100%;
+  height: 49.7%;
+  margin-bottom: 0.3%;
+  position: relative;
+}
+
+.horizontalPostImage,
+.boxedPostImage {
+  width: 100%;
+  height: 100%;
+}
+
+.boxedPosts {
+  width: 100%;
+  height: 49.7%;
+  position: relative;
+}
+
+.boxedLeft,
+.boxedRight {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+
+.boxedLeft {
+  width: 49.7%;
+  margin-right: 0.3%;
+}
+
+.boxedRight {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: none;
+  }
+}

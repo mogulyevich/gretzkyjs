@@ -1,0 +1,30 @@
+.container {
+  background-color: #fff;
+  padding: 3.75rem 0 1.6rem;
+  margin: 0 2rem;
+}
+
+.footerBox {
+  margin: 0 2.2rem;
+}
+
+.row {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.row::after {
+  clear: both;
+}
+
+.row::before,
+.row::after {
+  content: "";
+  display: table;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0;
+  }
+}

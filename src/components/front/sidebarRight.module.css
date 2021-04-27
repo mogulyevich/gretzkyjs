@@ -1,0 +1,195 @@
+.right {
+  width: 25%;
+  float: left;
+}
+
+.listPosts {
+  padding: 0 1.6rem;
+  margin: 0 0 1rem;
+  display: block;
+  text-align: left;
+}
+
+.listTitle {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.listTitle h4 {
+  background-color: #263238;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 600;
+  letter-spacing: 0.24rem;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.titleLink:hover,
+.titleLink:active {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.content .post {
+  clear: both;
+  padding: 0;
+  margin: 0 0 0.94rem;
+  width: 100%;
+  display: table;
+}
+
+.content .post .postImage {
+  margin: 0 1rem 0.6rem 0;
+  float: left;
+  width: 40%;
+}
+
+.postDetails .title {
+  margin: 0;
+  line-height: 1.4;
+  margin-top: -0.5rem;
+}
+
+.postDetails .title h3 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.postDetails .date {
+  display: inline-block;
+}
+
+.postDetails .date span {
+  font-weight: 300;
+  font-size: 1rem;
+  list-style: 1.6;
+  font-style: italic;
+  color: #919799;
+}
+
+.adSpace h5 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  display: inline;
+  text-transform: capitalize;
+}
+
+.adSpace p {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.sidePost .content {
+  padding: 1.06rem 1.56rem 0.75rem;
+}
+
+.sidePost .meta {
+  clear: both;
+  display: block;
+}
+
+.sidePost .meta .category {
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin: 0 0.54rem 0 0;
+  display: inline-block;
+  font-weight: 300;
+  letter-spacing: 0.25rem;
+  font-size: 1.3rem;
+}
+
+.sidePost .meta .date {
+  padding: 0;
+  display: inline-block;
+  line-height: 1.1;
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #919799;
+}
+
+.sidePost .title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+.sidePost .title h3 {
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.sidePost .excerpt {
+  margin: 0.38rem 0.06rem;
+  padding: 0;
+  display: block;
+  color: #6f787b;
+}
+
+.sidePost .excerpt p {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0.43rem;
+  line-height: 1.7;
+}
+
+.right .adSpace {
+  padding: 4rem 1.6rem;
+  margin-top: 2.2rem;
+  margin-right: 3.6rem;
+  margin-bottom: 2.2rem;
+  background-color: #263238;
+  color: #fff;
+  text-align: center;
+}
+
+.sidePost {
+  padding-right: 2.2rem;
+  padding-bottom: 2.2rem;
+}
+
+.sidePostImage {
+  margin-bottom: 0;
+  position: relative;
+  margin-top: 0;
+  width: 95%;
+}
+
+@media screen and (max-width: 600px) {
+  .right {
+    width: 100%;
+  }
+
+  .right {
+    order: 3;
+  }
+
+  .listPosts {
+    padding: 2.2rem 1.6rem;
+    padding-top: 0;
+  }
+
+  .adSpace {
+    margin-right: 0 !important;
+    padding-right: 4rem !important;
+  }
+
+  .sidePost {
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,207 @@
+.middle {
+  width: 50%;
+  float: left;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.titleLink:hover,
+.titleLink:active {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.bigPost {
+  padding-right: 2.2rem;
+  padding-bottom: 2.2rem;
+  display: block;
+}
+
+.bigPostImage {
+  margin-top: 2.2rem;
+  line-height: 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.bigPostDetails {
+  padding: 1.06rem 1.56rem 0.75rem;
+}
+
+.bigPostDetails .meta {
+  clear: both;
+  display: block;
+}
+
+.bigPostDetails .meta .category {
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin: 0 0.54rem 0 0;
+  display: inline-block;
+  font-weight: 300;
+  letter-spacing: 0.25rem;
+  font-size: 1.3rem;
+}
+
+.bigPostDetails .meta .date {
+  padding: 0;
+  display: inline-block;
+  line-height: 1.1;
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #919799;
+}
+
+.bigPostDetails .bigPostTitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+.bigPostDetails .bigPostTitle h2 {
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.bigPostDetails .excerpt {
+  margin: 0.38rem 0.06rem;
+  padding: 0;
+  display: block;
+  color: #6f787b;
+}
+
+.bigPostDetails .excerpt p {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0.43rem;
+  line-height: 1.7;
+}
+
+.adSpace {
+  margin-right: 2.2rem;
+  margin-bottom: 2.2rem;
+  padding: 1.8rem 1.56rem;
+  line-height: 1.7;
+  text-align: center;
+  background-color: #596199;
+  color: #fff;
+}
+
+.adSpace h5 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  display: inline;
+  text-transform: capitalize;
+}
+
+.adSpace p {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.middleTwoColumnLink {
+  display: flex;
+  padding-bottom: 2.2rem;
+}
+
+.linkWrapperLeft,
+.linkWrapperRight {
+  padding: 0;
+  text-align: center;
+}
+
+.linkWrapperLeft {
+  padding-right: 2rem;
+}
+
+.linkWrapperRight {
+  padding-right: 2.2rem;
+  padding-left: 2rem;
+}
+
+.linkWrapperLeft .linkTitle,
+.linkWrapperRight .linkTitle {
+  clear: both;
+  display: block;
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.1;
+}
+
+.linkWrapperLeft .linkExcerpt,
+.linkWrapperRight .linkExcerpt {
+  padding: 0;
+  display: block;
+  color: #6f787b;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.postOverlay {
+  padding-right: 2.2rem;
+  padding-bottom: 2.2rem;
+  display: block;
+  position: relative;
+  height: 20vh;
+}
+
+.overlayImage {
+  height: 100%;
+  width: 100%;
+}
+
+.postOverlay .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.postOverlay .title h3 {
+  padding: 1rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 600px) {
+  .middle {
+    width: 100%;
+  }
+
+  .middle {
+    order: 1;
+  }
+
+  .middleTwoColumnLink {
+    display: block;
+  }
+
+  .linkWrapperRight {
+    padding-left: 0;
+  }
+
+  .linkWrapperLeft .linkExcerpt,
+  .linkWrapperRight .linkExcerpt {
+    padding-right: 10px;
+  }
+
+  .postOverlay {
+    height: 30vh;
+  }
+
+  .postOverlay .title {
+    padding-right: 10px;
+  }
+}
